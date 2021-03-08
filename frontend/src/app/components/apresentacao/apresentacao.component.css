@@ -1,0 +1,96 @@
+img{
+    /* border-radius: 50%; */
+    width: 400px;
+    height: 450px;
+}
+#apresentacao{
+    margin-block-start: 0mm;
+    left: 10mm;
+    max-width: 80%;
+    border: 100%;
+    align-items: center;
+}
+#apresentacao img{
+    align-items: center;
+}
+.example-header-image {
+    background-image: url('/assets/img/homeImage/vini.jpg');
+    background-size: cover;
+  }
+
+.content{
+display: inline-flex;
+width: 100%;
+
+
+}
+.mainCard {
+     margin-block-start: 10mm;
+     display: inline-flex;
+     width: 80%;
+     margin-left: 10%;
+     background-color: whitesmoke;
+     /* background-image: url("https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg"); */
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+}
+
+.apresentacao{
+    width: 400px;
+    font-size: 12px;
+    background-color: whitesmoke;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 20%;
+
+}
+.apresentacaocard{
+    width: 900px;
+    height:355px;
+    font-size: 12px;
+    background-color: whitesmoke;
+    padding-left: 60px;
+    padding-right: 60px;  
+    margin-bottom: 10px;
+}
+#imgprojetos{
+    width: 950px;
+    height: 290px;
+}
+.black{
+    background-color: rgb(29, 28, 28);
+    font-size: 1.60em;
+    border-style: none;
+    color:whitesmoke;
+    width: 100px;
+    height: 30px;
+    margin-top: -10%;
+}
+p{
+    font-family: "Noto Serif",Georgia,serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.65;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h2{
+    display: block;
+    font-size: 1.60em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#sidegroup{
+    padding-right: 10px;
+    padding-left: 10px;
+}

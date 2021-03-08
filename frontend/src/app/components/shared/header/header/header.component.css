@@ -32,11 +32,14 @@ max-height: 32px;
     flex: 1 1 auto;
 }
 .header button {
-    display: table-cell;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    
     width: 90px;
-    border:thin;
+    border:none;
     font-size: 1rem;
-    margin: 0;
+    margin-left: 5px;
     padding: 10px;
     background-color: transparent;
     color: black;

@@ -11,7 +11,9 @@ import {MatListModule} from '@angular/material/list';
 import {MatMenuModule} from '@angular/material/menu';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
-import{MatCardModule} from '@angular/material/card'
+import {SobreComponent} from './components/sobre/sobre.component';
+import{MatCardModule} from '@angular/material/card';
+import { ApresentacaoComponent } from './components/apresentacao/apresentacao.component';
 
 
 
@@ -20,7 +22,9 @@ import{MatCardModule} from '@angular/material/card'
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    SobreComponent,
+    ApresentacaoComponent
   ],
   imports: [
     BrowserModule,
